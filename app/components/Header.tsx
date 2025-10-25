@@ -22,7 +22,7 @@ export default function Header() {
                 className="h-12 sm:h-14 w-auto"
                 priority
               />
-              <span className="text-sm sm:text-lg font-bold text-gray-900">
+              <span className="text-base sm:text-xl font-bold text-gray-900">
                 معروضي
               </span>
             </Link>

@@ -1,6 +1,6 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import { FaUserTie, FaGavel, FaHeadset, FaUsers, FaFileAlt, FaClock, FaAward, FaPhone } from 'react-icons/fa';
+import { FaUserTie, FaGavel, FaHeadset } from 'react-icons/fa';
 
 export default function About() {
   return (
@@ -89,33 +89,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-16 bg-blue-600 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
-            <div>
-              <FaUsers className="text-4xl mx-auto mb-2" />
-              <div className="text-4xl font-bold mb-2">1000+</div>
-              <div className="text-blue-100">عميل راضي</div>
-            </div>
-            <div>
-              <FaFileAlt className="text-4xl mx-auto mb-2" />
-              <div className="text-4xl font-bold mb-2">5000+</div>
-              <div className="text-blue-100">معروض مكتوب</div>
-            </div>
-            <div>
-              <FaAward className="text-4xl mx-auto mb-2" />
-              <div className="text-4xl font-bold mb-2">5+</div>
-              <div className="text-blue-100">سنوات خبرة</div>
-            </div>
-            <div>
-              <FaPhone className="text-4xl mx-auto mb-2" />
-              <div className="text-4xl font-bold mb-2">24/7</div>
-              <div className="text-blue-100">دعم متاح</div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <Footer />
     </div>
