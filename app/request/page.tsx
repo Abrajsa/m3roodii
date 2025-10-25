@@ -206,7 +206,7 @@ export default function Request() {
               <div className="text-center">
                 <button
                   type="submit"
-                  className="btn-primary text-lg px-8 py-3 flex items-center gap-2 mx-auto"
+                  className="btn-primary text-lg font-bold px-8 py-3 flex items-center gap-2 mx-auto"
                 >
                   <FaCheckCircle />
                   إرسال الطلب

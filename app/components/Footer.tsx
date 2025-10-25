@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Company Info */}
           <div className="sm:col-span-2 lg:col-span-2">
             <h3 className="text-xl sm:text-2xl font-bold text-blue-400 mb-3 sm:mb-4">معروضي</h3>
-            <p className="text-sm sm:text-base text-gray-300 mb-4 leading-relaxed">
+            <p className="text-sm sm:text-base text-gray-300 mb-4 leading-relaxed font-bold">
               موقع معروضي لكتابة الخطابات و المعاريض بصيغة قوية و مؤثرة شعارنا هو تقديم الافضل لك جرب خدماتنا وستكتشف اننا الافضل.
             </p>
             <div className="flex justify-center sm:justify-start items-center gap-3 sm:gap-4 flex-wrap">
@@ -66,7 +66,7 @@ export default function Footer() {
 
           {/* Important Links */}
           <div className="text-center sm:text-right">
-            <h4 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4">روابط مهمة</h4>
+            <h4 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">روابط مهمة</h4>
             <ul className="space-y-2">
               <li>
                 <Link href="/why-us" className="text-sm sm:text-base text-gray-300 hover:text-blue-400 transition-colors duration-200 block">
@@ -88,7 +88,7 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div className="text-center sm:text-right">
-            <h4 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4">تواصل معنا</h4>
+            <h4 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">تواصل معنا</h4>
             <div className="space-y-2 text-gray-300">
               <p className="flex items-center justify-center sm:justify-start text-sm sm:text-base">
                 <FaPhone className="w-4 h-4 sm:w-5 sm:h-5 ml-2" />

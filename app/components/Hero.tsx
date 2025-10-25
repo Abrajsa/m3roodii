@@ -18,10 +18,10 @@ export default function Hero() {
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight group-hover:scale-105 transition-transform duration-300">
               كتابة المعاريض الرسمية
             </h1>
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-3 sm:mb-4 text-blue-100 leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-3 sm:mb-4 text-blue-100 leading-relaxed font-bold">
               خدمة احترافية لكتابة المعاريض الحكومية والرسمية
             </p>
-            <p className="text-sm sm:text-base lg:text-lg text-blue-200 leading-relaxed">
+            <p className="text-sm sm:text-base lg:text-lg text-blue-200 leading-relaxed font-bold">
               نضمن لك معروضاً مكتوباً بأسلوب رسمي ومهني
             </p>
             <div className="mt-4 sm:mt-6">
@@ -37,22 +37,22 @@ export default function Hero() {
               <div className="text-2xl sm:text-3xl mb-3 sm:mb-4 text-center">
                 <FaPenFancy className="mx-auto" />
               </div>
-              <h3 className="text-lg sm:text-xl font-semibold mb-2">كتابة احترافية</h3>
-              <p className="text-sm sm:text-base text-blue-100 leading-relaxed">معروضات مكتوبة بأسلوب رسمي ومهني</p>
+              <h3 className="text-lg sm:text-xl font-bold mb-2">كتابة احترافية</h3>
+              <p className="text-sm sm:text-base text-blue-100 leading-relaxed font-bold">معروضات مكتوبة بأسلوب رسمي ومهني</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 sm:p-6">
               <div className="text-2xl sm:text-3xl mb-3 sm:mb-4 text-center">
                 <FaBolt className="mx-auto" />
               </div>
-              <h3 className="text-lg sm:text-xl font-semibold mb-2">تسليم سريع</h3>
-              <p className="text-sm sm:text-base text-blue-100 leading-relaxed">نضمن التسليم في الوقت المحدد</p>
+              <h3 className="text-lg sm:text-xl font-bold mb-2">تسليم سريع</h3>
+              <p className="text-sm sm:text-base text-blue-100 leading-relaxed font-bold">نضمن التسليم في الوقت المحدد</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 sm:p-6 sm:col-span-2 lg:col-span-1">
               <div className="text-2xl sm:text-3xl mb-3 sm:mb-4 text-center">
                 <FaCheckCircle className="mx-auto" />
               </div>
-              <h3 className="text-lg sm:text-xl font-semibold mb-2">ضمان الجودة</h3>
-              <p className="text-sm sm:text-base text-blue-100 leading-relaxed">مراجعة وتعديل مجاني حتى الرضا التام</p>
+              <h3 className="text-lg sm:text-xl font-bold mb-2">ضمان الجودة</h3>
+              <p className="text-sm sm:text-base text-blue-100 leading-relaxed font-bold">مراجعة وتعديل مجاني حتى الرضا التام</p>
             </div>
           </div>
         </div>
