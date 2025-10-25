@@ -4,9 +4,7 @@ const nextConfig: NextConfig = {
   // Basic Next.js configuration
   reactStrictMode: true,
   experimental: {
-    turbo: {
-      root: process.cwd(),
-    },
+    turbo: false,
   },
 };
 
