@@ -8,14 +8,9 @@ export default function Hero() {
     <section className="hero-gradient text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
         <div className="text-center">
-          {/* Main Banner - Clickable */}
-          <a 
-            href="https://new-mall.com/oZEQPDR" 
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block bg-white/10 backdrop-blur-sm rounded-2xl p-4 sm:p-6 lg:p-8 mb-6 sm:mb-8 hover:bg-white/20 transition-all duration-300 cursor-pointer group"
-          >
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight group-hover:scale-105 transition-transform duration-300">
+          {/* Main Banner */}
+          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 sm:p-6 lg:p-8 mb-6 sm:mb-8">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
               كتابة المعاريض الرسمية
             </h1>
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-3 sm:mb-4 text-blue-100 leading-relaxed font-bold">
@@ -25,11 +20,16 @@ export default function Hero() {
               نضمن لك معروضاً مكتوباً بأسلوب رسمي ومهني
             </p>
             <div className="mt-4 sm:mt-6">
-              <span className="inline-block bg-white text-blue-600 font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-lg text-sm sm:text-base transition-all duration-200 shadow-lg group-hover:shadow-xl group-hover:-translate-y-1">
+              <a 
+                href="https://new-mall.com/oZEQPDR" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-white text-blue-600 font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-lg text-sm sm:text-base transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-1"
+              >
                 اطلب الآن
-              </span>
+              </a>
             </div>
-          </a>
+          </div>
 
           {/* Features */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mt-8 sm:mt-12 lg:mt-16">

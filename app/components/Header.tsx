@@ -13,7 +13,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="flex items-center">
+            <Link href="/" className="flex items-center gap-3">
               <Image
                 src="/m3roddi.png"
                 alt="معروضي - كتابة المعاريض الرسمية"
@@ -22,6 +22,9 @@ export default function Header() {
                 className="h-12 sm:h-14 w-auto"
                 priority
               />
+              <span className="text-sm sm:text-lg font-bold text-gray-900">
+                معروضي
+              </span>
             </Link>
           </div>
 
@@ -29,25 +32,25 @@ export default function Header() {
           <nav className="hidden md:flex space-x-reverse space-x-8">
             <Link 
               href="/" 
-              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-bold transition-all duration-200 hover:border-b-2 hover:border-blue-600"
             >
               الرئيسية
             </Link>
             <Link 
               href="/about" 
-              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-bold transition-all duration-200 hover:border-b-2 hover:border-blue-600"
             >
               من نحن
             </Link>
             <Link 
               href="/faq" 
-              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-bold transition-all duration-200 hover:border-b-2 hover:border-blue-600"
             >
               الأسئلة الشائعة
             </Link>
             <Link 
               href="/contact" 
-              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-bold transition-all duration-200 hover:border-b-2 hover:border-blue-600"
             >
               اتصل بنا
             </Link>
@@ -84,28 +87,28 @@ export default function Header() {
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gray-50 rounded-lg mt-2">
               <Link 
                 href="/" 
-                className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium"
+                className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-bold transition-all duration-200 hover:border-b-2 hover:border-blue-600"
                 onClick={() => setIsMenuOpen(false)}
               >
                 الرئيسية
               </Link>
               <Link 
                 href="/about" 
-                className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium"
+                className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-bold transition-all duration-200 hover:border-b-2 hover:border-blue-600"
                 onClick={() => setIsMenuOpen(false)}
               >
                 من نحن
               </Link>
               <Link 
                 href="/faq" 
-                className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium"
+                className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-bold transition-all duration-200 hover:border-b-2 hover:border-blue-600"
                 onClick={() => setIsMenuOpen(false)}
               >
                 الأسئلة الشائعة
               </Link>
               <Link 
                 href="/contact" 
-                className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium"
+                className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-bold transition-all duration-200 hover:border-b-2 hover:border-blue-600"
                 onClick={() => setIsMenuOpen(false)}
               >
                 اتصل بنا
