@@ -40,6 +40,12 @@ export default function Header() {
               من نحن
             </Link>
             <Link 
+              href="/faq" 
+              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+            >
+              الأسئلة الشائعة
+            </Link>
+            <Link 
               href="/contact" 
               className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
             >
@@ -49,7 +55,7 @@ export default function Header() {
               href="https://new-mall.com/oZEQPDR" 
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary text-sm"
+              className="btn-primary text-sm font-bold"
             >
               اطلب الآن
             </a>
@@ -91,6 +97,13 @@ export default function Header() {
                 من نحن
               </Link>
               <Link 
+                href="/faq" 
+                className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                الأسئلة الشائعة
+              </Link>
+              <Link 
                 href="/contact" 
                 className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium"
                 onClick={() => setIsMenuOpen(false)}
@@ -101,7 +114,7 @@ export default function Header() {
                 href="https://new-mall.com/oZEQPDR" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-primary text-sm block text-center mt-4"
+                className="btn-primary text-sm font-bold block text-center mt-4"
                 onClick={() => setIsMenuOpen(false)}
               >
                 اطلب الآن
