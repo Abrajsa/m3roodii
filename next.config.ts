@@ -1,12 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  outputFileTracingRoot: "/Users/assistant/Desktop/Q/any/m3roodii",
-  experimental: {
-    turbo: {
-      root: "/Users/assistant/Desktop/Q/any/m3roodii"
-    }
-  }
+  // Basic Next.js configuration
+  reactStrictMode: true,
+  swcMinify: true,
 };
 
 export default nextConfig;
