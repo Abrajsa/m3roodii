@@ -14,7 +14,7 @@ export default function Footer() {
             </p>
             <div className="flex justify-center sm:justify-start items-center gap-3 sm:gap-4 flex-wrap">
               <a 
-                href="https://wa.me/966551117720" 
+                href="https://wa.me/966551781111" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-green-400 transition-colors duration-200"
@@ -92,16 +92,16 @@ export default function Footer() {
             <div className="space-y-2 text-gray-300">
               <p className="flex items-center justify-center sm:justify-start text-sm sm:text-base">
                 <FaPhone className="w-4 h-4 sm:w-5 sm:h-5 ml-2" />
-                +966551117720
+                +966551781111
               </p>
               <a 
-                href="https://wa.me/966551117720" 
+                href="https://wa.me/966551781111" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center justify-center sm:justify-start text-sm sm:text-base text-gray-300 hover:text-green-400 transition-colors duration-200"
               >
                 <FaWhatsapp className="w-4 h-4 sm:w-5 sm:h-5 ml-2" />
-                +966551117720
+                +966551781111
               </a>
               <p className="flex items-center justify-center sm:justify-start text-sm sm:text-base">
                 <FaEnvelope className="w-4 h-4 sm:w-5 sm:h-5 ml-2" />

@@ -8,9 +8,14 @@ export default function Hero() {
     <section className="hero-gradient text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
         <div className="text-center">
-          {/* Main Banner */}
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 sm:p-6 lg:p-8 mb-6 sm:mb-8">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
+          {/* Main Banner - Clickable */}
+          <a 
+            href="https://new-mall.com/oZEQPDR" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block bg-white/10 backdrop-blur-sm rounded-2xl p-4 sm:p-6 lg:p-8 mb-6 sm:mb-8 hover:bg-white/20 transition-all duration-300 cursor-pointer group"
+          >
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight group-hover:scale-105 transition-transform duration-300">
               كتابة المعاريض الرسمية
             </h1>
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-3 sm:mb-4 text-blue-100 leading-relaxed">
@@ -19,19 +24,12 @@ export default function Hero() {
             <p className="text-sm sm:text-base lg:text-lg text-blue-200 leading-relaxed">
               نضمن لك معروضاً مكتوباً بأسلوب رسمي ومهني
             </p>
-          </div>
-
-          {/* CTA Button */}
-          <div className="flex justify-center items-center mb-8 sm:mb-12">
-            <a 
-              href="https://new-mall.com/oZEQPDR" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white text-blue-600 hover:bg-gray-100 font-bold py-3 px-6 sm:py-4 sm:px-8 rounded-lg text-base sm:text-lg transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1 w-full max-w-xs sm:w-auto"
-            >
-              اطلب الآن
-            </a>
-          </div>
+            <div className="mt-4 sm:mt-6">
+              <span className="inline-block bg-white text-blue-600 font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-lg text-sm sm:text-base transition-all duration-200 shadow-lg group-hover:shadow-xl group-hover:-translate-y-1">
+                اطلب الآن
+              </span>
+            </div>
+          </a>
 
           {/* Features */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mt-8 sm:mt-12 lg:mt-16">

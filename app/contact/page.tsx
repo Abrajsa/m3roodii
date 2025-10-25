@@ -155,7 +155,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="font-medium text-gray-900">البريد الإلكتروني</p>
-                      <p className="text-gray-600">info@m3roodii.com</p>
+                      <p className="text-gray-600">info@m3roodi.com</p>
                     </div>
                   </div>
                   
@@ -165,7 +165,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="font-medium text-gray-900">رقم الهاتف</p>
-                      <p className="text-gray-600">+966 50 000 0000</p>
+                      <p className="text-gray-600">+966551781111</p>
                     </div>
                   </div>
                   
@@ -202,7 +202,7 @@ export default function Contact() {
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">تواصل معنا عبر</h3>
                 <div className="flex space-x-reverse space-x-4">
                   <a 
-                    href="https://wa.me/966500000000" 
+                    href="https://wa.me/966551781111" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-green-500 hover:bg-green-600 text-white p-3 rounded-lg transition-colors duration-200"
@@ -210,7 +210,7 @@ export default function Contact() {
                     <FaWhatsapp className="w-6 h-6" />
                   </a>
                   <a 
-                    href="mailto:info@m3roodii.com"
+                    href="mailto:info@m3roodi.com"
                     className="bg-blue-500 hover:bg-blue-600 text-white p-3 rounded-lg transition-colors duration-200"
                   >
                     <FaEnvelope className="w-6 h-6" />
