@@ -27,6 +27,8 @@ export default function Hero() {
           }}
         />
       </div>
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black/30"></div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 sm:py-12 md:py-16 lg:py-20">
         <div className="text-center flex items-center justify-center min-h-full pt-8 sm:items-center sm:pt-2 md:pt-4 lg:pt-8">
           {/* Main Banner */}
@@ -42,7 +44,7 @@ export default function Hero() {
                 href="https://new-mall.com/oZEQPDR" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-white text-blue-600 font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-lg text-sm sm:text-base transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-1"
+                className="inline-block bg-white text-blue-600 font-bold py-3 px-6 sm:py-3 sm:px-7 md:py-4 md:px-8 rounded-lg text-base sm:text-lg md:text-xl transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-1"
               >
                 اطلب الآن
               </a>
