@@ -44,7 +44,7 @@ export default function Hero() {
                 href="https://new-mall.com/oZEQPDR" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-white text-blue-600 font-bold py-3 px-6 sm:py-3 sm:px-7 md:py-4 md:px-8 rounded-lg text-base sm:text-lg md:text-xl transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-1"
+                className="inline-block bg-blue-800 text-white border-2 border-white font-bold py-3 px-6 sm:py-3 sm:px-7 md:py-4 md:px-8 rounded-lg text-base sm:text-lg md:text-xl transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-1"
               >
                 اطلب الآن
               </a>
