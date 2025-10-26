@@ -28,7 +28,7 @@ export default function Home() {
               </div>
               <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3">كتابة معروض</h3>
               <p className="text-sm sm:text-base text-black leading-relaxed font-bold">
-                كتابة المعاريض الرسمية بأسلوب احترافي ومهني دقيق
+                كتابة المعاريض بصيغة قوية و مؤثرة
               </p>
             </div>
             
@@ -38,7 +38,7 @@ export default function Home() {
               </div>
               <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3">ارسال المعروض</h3>
               <p className="text-sm sm:text-base text-black leading-relaxed font-bold">
-                إرسال المعروض للجهات المختصة بطرق آمنة وموثوقة
+                إرسال المعروض للجهات المختصة بطرق موثوقة و مباشرة
               </p>
             </div>
             
@@ -48,7 +48,7 @@ export default function Home() {
               </div>
               <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3">متابعة المعملات</h3>
               <p className="text-sm sm:text-base text-black leading-relaxed font-bold">
-                متابعة مستمرة لمعاملاتك وضمان وصولها للجهة المعنية
+                متابعة معاملتك لضمان وصولها و انجازها بأسرع وقت
               </p>
             </div>
           </div>
