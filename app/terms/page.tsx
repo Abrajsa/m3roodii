@@ -117,21 +117,21 @@ export default function Terms() {
                     <p className="text-blue-800">
                       راسلنا على 
                       <a 
-                        href="https://wa.me/966551117720" 
+                        href="https://wa.me/966551781111" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:text-blue-800 underline mx-1"
                       >
-                        0551117720
+                        966551781111
                       </a>
                       و من خارج السعودية على 
                       <a 
-                        href="https://wa.me/966551117720" 
+                        href="https://wa.me/966551781111" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:text-blue-800 underline mx-1"
                       >
-                        00966551117720
+                        966551781111
                       </a>
                     </p>
                   </div>
