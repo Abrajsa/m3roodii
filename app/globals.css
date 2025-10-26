@@ -9,6 +9,7 @@
   --accent: #0f172a;
   --border: #e2e8f0;
   --muted: #f8fafc;
+  --color-blue-800: #1e40af;
 }
 
 @theme inline {
@@ -20,6 +21,7 @@
   --color-accent: var(--accent);
   --color-border: var(--border);
   --color-muted: var(--muted);
+  --color-blue-800: var(--color-blue-800);
   --font-sans: var(--font-tajawal);
 }
 
