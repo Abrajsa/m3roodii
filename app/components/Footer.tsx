@@ -46,7 +46,7 @@ export default function Footer() {
                 <FaTiktok className="w-5 h-5 sm:w-6 sm:h-6" />
               </a>
               <a 
-                href="https://youtube.com/@m3roodi" 
+                href="https://www.youtube.com/@m3roodivip670" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-red-500 transition-colors duration-200"
