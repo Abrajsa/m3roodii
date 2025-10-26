@@ -90,7 +90,7 @@ export default function FAQ() {
                       )}
                     </div>
                   </div>
-                  <h3 className="text-lg font-semibold text-gray-900 flex-1 mr-4 group-hover:text-blue-700 transition-colors duration-200">
+                  <h3 className="text-lg font-semibold text-black flex-1 mr-4 group-hover:text-blue-700 transition-colors duration-200">
                     {item.question}
                   </h3>
                 </button>
@@ -99,7 +99,7 @@ export default function FAQ() {
                   <div className="px-6 pb-5 animate-fadeIn">
                     <div className="border-t border-gray-100 pt-4">
                       <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-4">
-                        <p className="text-gray-700 leading-relaxed text-base">
+                        <p className="text-black leading-relaxed text-base">
                           {item.answer}
                         </p>
                       </div>

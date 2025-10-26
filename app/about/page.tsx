@@ -23,21 +23,21 @@ export default function About() {
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose prose-lg max-w-none">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">عن معروضي</h2>
-            <p className="text-gray-600 mb-6 leading-relaxed">
+            <h2 className="text-3xl font-bold text-black mb-6">عن معروضي</h2>
+            <p className="text-black mb-6 leading-relaxed">
               نحن فريق من الكتاب المحترفين المتخصصين في كتابة المعاريض الرسمية والحكومية. 
               نقدم خدماتنا منذ أكثر من 5 سنوات، وتمكنا من مساعدة آلاف العملاء في الحصول 
               على معاريض مكتوبة بأعلى معايير الجودة والاحترافية.
             </p>
             
-            <h3 className="text-2xl font-semibold text-gray-900 mb-4">رؤيتنا</h3>
-            <p className="text-gray-600 mb-6 leading-relaxed">
+            <h3 className="text-2xl font-semibold text-black mb-4">رؤيتنا</h3>
+            <p className="text-black mb-6 leading-relaxed">
               أن نكون الخيار الأول لكل من يحتاج إلى كتابة معروض رسمي أو حكومي، 
               وأن نقدم خدمات متميزة تلبي احتياجات عملائنا بأعلى معايير الجودة.
             </p>
             
-            <h3 className="text-2xl font-semibold text-gray-900 mb-4">مهمتنا</h3>
-            <p className="text-gray-600 mb-6 leading-relaxed">
+            <h3 className="text-2xl font-semibold text-black mb-4">مهمتنا</h3>
+            <p className="text-black mb-6 leading-relaxed">
               تقديم خدمات كتابة المعاريض باحترافية عالية، مع ضمان السرية والخصوصية، 
               والتسليم في الوقت المحدد، ومراجعة وتعديل مجاني حتى الرضا التام.
             </p>
@@ -49,8 +49,8 @@ export default function About() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">فريقنا</h2>
-            <p className="text-xl text-gray-600">
+            <h2 className="text-3xl font-bold text-black mb-4">فريقنا</h2>
+            <p className="text-xl text-black">
               فريق من الخبراء المتخصصين في كتابة المعاريض
             </p>
           </div>
@@ -61,7 +61,7 @@ export default function About() {
                 <FaUserTie className="text-3xl text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold mb-2">فريق الكتابة</h3>
-              <p className="text-gray-600">
+              <p className="text-black">
                 كتاب محترفون متخصصون في الكتابة الرسمية والحكومية
               </p>
             </div>
@@ -71,7 +71,7 @@ export default function About() {
                 <FaGavel className="text-3xl text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold mb-2">المراجعة القانونية</h3>
-              <p className="text-gray-600">
+              <p className="text-black">
                 خبراء في المراجعة القانونية والتأكد من صحة الصيغ
               </p>
             </div>
@@ -81,7 +81,7 @@ export default function About() {
                 <FaHeadset className="text-3xl text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold mb-2">دعم العملاء</h3>
-              <p className="text-gray-600">
+              <p className="text-black">
                 فريق دعم متاح لمساعدتك في أي وقت
               </p>
             </div>
