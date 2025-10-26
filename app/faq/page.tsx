@@ -98,8 +98,8 @@ export default function FAQ() {
                 {openItems.includes(index) && (
                   <div className="px-6 pb-5 animate-fadeIn">
                     <div className="border-t border-gray-100 pt-4">
-                      <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-4">
-                        <p className="text-black leading-relaxed text-base">
+                      <div className="bg-white rounded-lg p-4 border-2 border-blue-100">
+                        <p className="text-black leading-relaxed text-base font-bold">
                           {item.answer}
                         </p>
                       </div>

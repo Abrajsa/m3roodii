@@ -58,7 +58,8 @@ export default function Header() {
               href="https://new-mall.com/oZEQPDR" 
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary text-sm font-black"
+              className="inline-block bg-blue-800 text-white border-2 border-white font-bold py-2.5 px-5 rounded-lg text-sm transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-1"
+              style={{marginTop: '-4px'}}
             >
               اطلب الآن
             </a>
@@ -112,7 +113,7 @@ export default function Header() {
                     href="https://new-mall.com/oZEQPDR" 
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn-primary text-sm font-black block text-center py-3 rounded-lg"
+                    className="inline-block bg-blue-800 text-white border-2 border-white font-bold py-2.5 px-5 rounded-lg text-sm transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-1 block text-center"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     اطلب الآن
