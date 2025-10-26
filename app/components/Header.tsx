@@ -32,25 +32,25 @@ export default function Header() {
           <nav className="hidden md:flex space-x-reverse space-x-8">
             <Link 
               href="/" 
-              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-bold transition-all duration-200 hover:border-b-2 hover:border-blue-600"
+              className="text-black hover:text-blue-600 px-3 py-2 text-sm font-black transition-all duration-200 hover:border-b-2 hover:border-blue-600"
             >
               الرئيسية
             </Link>
             <Link 
               href="/about" 
-              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-bold transition-all duration-200 hover:border-b-2 hover:border-blue-600"
+              className="text-black hover:text-blue-600 px-3 py-2 text-sm font-black transition-all duration-200 hover:border-b-2 hover:border-blue-600"
             >
               من نحن
             </Link>
             <Link 
               href="/faq" 
-              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-bold transition-all duration-200 hover:border-b-2 hover:border-blue-600"
+              className="text-black hover:text-blue-600 px-3 py-2 text-sm font-black transition-all duration-200 hover:border-b-2 hover:border-blue-600"
             >
               الأسئلة الشائعة
             </Link>
             <Link 
               href="/contact" 
-              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-bold transition-all duration-200 hover:border-b-2 hover:border-blue-600"
+              className="text-black hover:text-blue-600 px-3 py-2 text-sm font-black transition-all duration-200 hover:border-b-2 hover:border-blue-600"
             >
               اتصل بنا
             </Link>
@@ -58,7 +58,7 @@ export default function Header() {
               href="https://new-mall.com/oZEQPDR" 
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary text-sm font-bold"
+              className="btn-primary text-sm font-black"
             >
               اطلب الآن
             </a>
@@ -68,7 +68,7 @@ export default function Header() {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-gray-700 hover:text-blue-600 focus:outline-none focus:text-blue-600"
+              className="text-black hover:text-blue-600 focus:outline-none focus:text-blue-600"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 {isMenuOpen ? (
@@ -98,7 +98,7 @@ export default function Header() {
                   <h2 className="text-xl font-black text-gray-900">القائمة</h2>
                   <button
                     onClick={() => setIsMenuOpen(false)}
-                    className="text-gray-700 hover:text-blue-600 transition-colors"
+                    className="text-black hover:text-blue-600 transition-colors"
                   >
                     <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -112,7 +112,7 @@ export default function Header() {
                     href="https://new-mall.com/oZEQPDR" 
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn-primary text-sm font-bold block text-center py-3 rounded-lg"
+                    className="btn-primary text-sm font-black block text-center py-3 rounded-lg"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     اطلب الآن
@@ -123,28 +123,28 @@ export default function Header() {
                 <nav className="flex-1 px-6 py-6 space-y-2">
                   <Link 
                     href="/" 
-                    className="text-gray-700 hover:text-blue-600 hover:bg-blue-50 block px-4 py-3 text-base font-bold rounded-lg transition-all duration-200"
+                    className="text-black hover:text-blue-600 hover:bg-blue-50 block px-4 py-3 text-base font-black rounded-lg transition-all duration-200"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     الرئيسية
                   </Link>
                   <Link 
                     href="/about" 
-                    className="text-gray-700 hover:text-blue-600 hover:bg-blue-50 block px-4 py-3 text-base font-bold rounded-lg transition-all duration-200"
+                    className="text-black hover:text-blue-600 hover:bg-blue-50 block px-4 py-3 text-base font-black rounded-lg transition-all duration-200"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     من نحن
                   </Link>
                   <Link 
                     href="/faq" 
-                    className="text-gray-700 hover:text-blue-600 hover:bg-blue-50 block px-4 py-3 text-base font-bold rounded-lg transition-all duration-200"
+                    className="text-black hover:text-blue-600 hover:bg-blue-50 block px-4 py-3 text-base font-black rounded-lg transition-all duration-200"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     الأسئلة الشائعة
                   </Link>
                   <Link 
                     href="/contact" 
-                    className="text-gray-700 hover:text-blue-600 hover:bg-blue-50 block px-4 py-3 text-base font-bold rounded-lg transition-all duration-200"
+                    className="text-black hover:text-blue-600 hover:bg-blue-50 block px-4 py-3 text-base font-black rounded-lg transition-all duration-200"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     اتصل بنا

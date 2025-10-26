@@ -44,7 +44,7 @@ body {
 
 /* Custom button styles */
 .btn-primary {
-  @apply bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200;
+  @apply bg-blue-600 hover:bg-blue-700 text-white font-black py-3 px-6 rounded-lg transition-colors duration-200;
 }
 
 /* Sidebar slide-in animation */
@@ -62,7 +62,7 @@ body {
 }
 
 .btn-secondary {
-  @apply bg-gray-100 hover:bg-gray-200 text-gray-800 font-semibold py-3 px-6 rounded-lg transition-colors duration-200;
+  @apply bg-gray-100 hover:bg-gray-200 text-gray-800 font-black py-3 px-6 rounded-lg transition-colors duration-200;
 }
 
 /* Hero section styles */
