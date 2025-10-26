@@ -81,49 +81,78 @@ export default function Header() {
           </div>
         </div>
 
-        {/* Mobile Navigation */}
+        {/* Mobile Navigation Sidebar */}
         {isMenuOpen && (
-          <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gray-50 rounded-lg mt-2">
-              <Link 
-                href="/" 
-                className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-bold transition-all duration-200 hover:border-b-2 hover:border-blue-600"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                الرئيسية
-              </Link>
-              <Link 
-                href="/about" 
-                className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-bold transition-all duration-200 hover:border-b-2 hover:border-blue-600"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                من نحن
-              </Link>
-              <Link 
-                href="/faq" 
-                className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-bold transition-all duration-200 hover:border-b-2 hover:border-blue-600"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                الأسئلة الشائعة
-              </Link>
-              <Link 
-                href="/contact" 
-                className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-bold transition-all duration-200 hover:border-b-2 hover:border-blue-600"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                اتصل بنا
-              </Link>
-              <a 
-                href="https://new-mall.com/oZEQPDR" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-primary text-sm font-bold block text-center mt-4"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                اطلب الآن
-              </a>
+          <>
+            {/* Backdrop */}
+            <div 
+              className="fixed inset-0 bg-black/50 backdrop-blur-sm z-40 transition-opacity duration-300"
+              onClick={() => setIsMenuOpen(false)}
+            ></div>
+            
+            {/* Sidebar */}
+            <div className="md:hidden fixed top-0 right-0 h-full w-80 bg-white shadow-2xl z-50 transform transition-transform duration-300 ease-out slide-in-right">
+              <div className="flex flex-col h-full">
+                {/* Header */}
+                <div className="flex items-center justify-between p-6 border-b border-gray-200">
+                  <h2 className="text-xl font-black text-gray-900">القائمة</h2>
+                  <button
+                    onClick={() => setIsMenuOpen(false)}
+                    className="text-gray-700 hover:text-blue-600 transition-colors"
+                  >
+                    <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+
+                {/* Order Button at Top */}
+                <div className="px-6 py-4 border-b border-gray-200">
+                  <a 
+                    href="https://new-mall.com/oZEQPDR" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-primary text-sm font-bold block text-center py-3 rounded-lg"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    اطلب الآن
+                  </a>
+                </div>
+
+                {/* Navigation Links */}
+                <nav className="flex-1 px-6 py-6 space-y-2">
+                  <Link 
+                    href="/" 
+                    className="text-gray-700 hover:text-blue-600 hover:bg-blue-50 block px-4 py-3 text-base font-bold rounded-lg transition-all duration-200"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    الرئيسية
+                  </Link>
+                  <Link 
+                    href="/about" 
+                    className="text-gray-700 hover:text-blue-600 hover:bg-blue-50 block px-4 py-3 text-base font-bold rounded-lg transition-all duration-200"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    من نحن
+                  </Link>
+                  <Link 
+                    href="/faq" 
+                    className="text-gray-700 hover:text-blue-600 hover:bg-blue-50 block px-4 py-3 text-base font-bold rounded-lg transition-all duration-200"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    الأسئلة الشائعة
+                  </Link>
+                  <Link 
+                    href="/contact" 
+                    className="text-gray-700 hover:text-blue-600 hover:bg-blue-50 block px-4 py-3 text-base font-bold rounded-lg transition-all duration-200"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    اتصل بنا
+                  </Link>
+                </nav>
+              </div>
             </div>
-          </div>
+          </>
         )}
       </div>
     </header>

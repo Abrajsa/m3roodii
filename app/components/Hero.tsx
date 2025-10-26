@@ -6,11 +6,11 @@ import { FaArrowLeft } from 'react-icons/fa';
 
 export default function Hero() {
   return (
-    <section className="relative text-white" style={{height: 'calc(100vw / 2.47)'}}>
+    <section className="relative text-white h-[calc(100vw/1.8)] sm:h-[calc(100vw/2.47)] md:h-[60vh] lg:h-[70vh]">
       {/* Background with fallback gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700">
         <Image
-          src="/m3roodic.jpg"
+          src="/newphot.jpeg"
           alt="معروضي - كتابة المعاريض الرسمية"
           fill
           className="object-cover"
@@ -28,7 +28,7 @@ export default function Hero() {
         />
       </div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 sm:py-12 md:py-16 lg:py-20">
-        <div className="text-center flex items-start justify-center min-h-full pt-0 sm:items-center sm:pt-2 md:pt-4 lg:pt-8">
+        <div className="text-center flex items-center justify-center min-h-full pt-8 sm:items-center sm:pt-2 md:pt-4 lg:pt-8">
           {/* Main Banner */}
           <div className="rounded-2xl p-3 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight text-white drop-shadow-2xl" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>
