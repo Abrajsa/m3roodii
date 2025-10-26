@@ -38,7 +38,7 @@ export default function Home() {
               </div>
               <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3">ارسال المعروض</h3>
               <p className="text-sm sm:text-base text-black leading-relaxed font-bold">
-                إرسال المعروض للجهات المختصة بطرق موثوقة و مباشرة
+                إرسال المعروض للجهة المختصة بطريقة موثوقة و مباشرة
               </p>
             </div>
             
