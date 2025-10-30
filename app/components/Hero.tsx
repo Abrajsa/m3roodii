@@ -39,7 +39,7 @@ export default function Hero() {
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-3 sm:mb-4 text-white leading-relaxed font-bold drop-shadow-xl" style={{textShadow: '1px 1px 3px rgba(0,0,0,0.8)'}}>
               خدمة احترافية لكتابة المعاريض الحكومية والرسمية
             </p>
-            <div className="mt-2 sm:mt-6">
+            <div className="mt-0 sm:mt-6">
               <a 
                 href="https://new-mall.com/oZEQPDR" 
                 target="_blank"
