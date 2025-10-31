@@ -55,6 +55,26 @@ export default function Home() {
         </div>
       </section>
 
+      {/* CTA Section */}
+      <section className="py-12 sm:py-16 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6 leading-tight drop-shadow-lg">
+              اطلب معروضك الان واحصل على افضل صيغة
+            </h2>
+            <div className="mt-4 sm:mt-6">
+              <a 
+                href="https://new-mall.com/oZEQPDR" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-white text-blue-800 border-2 border-white font-bold py-3 px-8 sm:py-4 sm:px-10 md:py-5 md:px-12 rounded-lg text-base sm:text-lg md:text-xl transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-1 hover:bg-gray-100"
+              >
+                اطلب الآن
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <Footer />
     </div>
