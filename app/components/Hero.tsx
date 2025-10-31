@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { FaArrowLeft } from 'react-icons/fa';
+import { motion } from 'framer-motion';
 
 export default function Hero() {
   return (
@@ -32,24 +33,48 @@ export default function Hero() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 sm:py-12 md:py-16 lg:py-20">
         <div className="text-center flex items-center justify-center min-h-full pt-8 sm:items-center sm:pt-2 md:pt-4 lg:pt-8">
           {/* Main Banner */}
-          <div className="rounded-2xl p-3 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight text-white drop-shadow-2xl" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>
+          <motion.div 
+            className="rounded-2xl p-3 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+          >
+            <motion.h1 
+              className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight text-white drop-shadow-2xl" 
+              style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+            >
               كتابة المعاريض الرسمية
-            </h1>
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-3 sm:mb-4 text-white leading-relaxed font-bold drop-shadow-xl" style={{textShadow: '1px 1px 3px rgba(0,0,0,0.8)'}}>
+            </motion.h1>
+            <motion.p 
+              className="text-base sm:text-lg md:text-xl lg:text-2xl mb-3 sm:mb-4 text-white leading-relaxed font-bold drop-shadow-xl" 
+              style={{textShadow: '1px 1px 3px rgba(0,0,0,0.8)'}}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+            >
               خدمة احترافية لكتابة المعاريض الحكومية والرسمية
-            </p>
-            <div className="-mt-2 sm:mt-6">
-              <a 
+            </motion.p>
+            <motion.div 
+              className="-mt-2 sm:mt-6"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.6 }}
+            >
+              <motion.a 
                 href="https://new-mall.com/oZEQPDR" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-blue-800 text-white border-2 border-white font-bold py-3 px-6 sm:py-3 sm:px-7 md:py-4 md:px-8 rounded-lg text-base sm:text-lg md:text-xl transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-1"
+                className="inline-block bg-blue-800 text-white border-2 border-white font-bold py-3 px-6 sm:py-3 sm:px-7 md:py-4 md:px-8 rounded-lg text-base sm:text-lg md:text-xl transition-all duration-300 shadow-lg hover:shadow-2xl hover:-translate-y-1 hover:scale-105 transform hover:bg-blue-700"
+                whileHover={{ scale: 1.05, y: -5 }}
+                whileTap={{ scale: 0.95 }}
               >
                 اطلب الآن
-              </a>
-            </div>
-          </div>
+              </motion.a>
+            </motion.div>
+          </motion.div>
 
         </div>
       </div>
