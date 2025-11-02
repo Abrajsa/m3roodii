@@ -35,19 +35,22 @@ export default function Home() {
       <Hero />
       
       {/* Services Section */}
-      <section className="py-12 sm:py-16 bg-gradient-to-b from-white to-gray-50">
+      <section className="py-16 sm:py-20 bg-gradient-to-b from-white via-gray-50/50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div 
-            className="text-center mb-8 sm:mb-12"
+            className="text-center mb-12 sm:mb-16"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
+            <div className="inline-block mb-4">
+              <span className="text-blue-600 text-sm font-bold uppercase tracking-wide">خدماتنا</span>
+            </div>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-5 bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
               خدماتنا
             </h2>
-            <p className="text-lg sm:text-xl text-gray-700 leading-relaxed font-bold">
+            <p className="text-lg sm:text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto">
               نقدم مجموعة شاملة من خدمات كتابة المعاريض
             </p>
           </motion.div>
@@ -73,8 +76,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-gray-900 group-hover:text-blue-700 transition-colors duration-300">كتابة معروض</h3>
-              <p className="text-sm sm:text-base text-gray-700 leading-relaxed font-bold">
+              <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-gray-900 group-hover:text-blue-700 transition-colors duration-300">كتابة معروض</h3>
+              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                 كتابة المعاريض بصيغة قوية و مؤثرة
               </p>
             </motion.div>
@@ -93,8 +96,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-gray-900 group-hover:text-blue-700 transition-colors duration-300">ارسال المعروض</h3>
-              <p className="text-sm sm:text-base text-gray-700 leading-relaxed font-bold">
+              <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-gray-900 group-hover:text-blue-700 transition-colors duration-300">ارسال المعروض</h3>
+              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                 إرسال المعروض للجهة المختصة بطريقة موثوقة و مباشرة
               </p>
             </motion.div>
@@ -113,8 +116,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-gray-900 group-hover:text-blue-700 transition-colors duration-300">متابعة المعملات</h3>
-              <p className="text-sm sm:text-base text-gray-700 leading-relaxed font-bold">
+              <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-gray-900 group-hover:text-blue-700 transition-colors duration-300">متابعة المعملات</h3>
+              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                 متابعة معاملتك لضمان وصولها و انجازها بأسرع وقت
               </p>
             </motion.div>
@@ -123,7 +126,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-12 sm:py-16 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 overflow-hidden">
+      <section className="relative py-16 sm:py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 overflow-hidden">
         {/* Decorative background elements */}
         <motion.div 
           className="absolute top-0 right-0 w-64 h-64 bg-blue-600/20 rounded-full blur-3xl"

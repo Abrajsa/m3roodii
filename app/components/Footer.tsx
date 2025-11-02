@@ -17,49 +17,49 @@ export default function Footer() {
                 href="https://wa.me/966551781111" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-green-400 transition-colors duration-200"
+                className="w-10 h-10 flex items-center justify-center bg-gray-800 hover:bg-green-500 rounded-full text-gray-400 hover:text-white transition-all duration-300 transform hover:scale-110 hover:shadow-lg hover:shadow-green-500/50"
               >
-                <FaWhatsapp className="w-5 h-5 sm:w-6 sm:h-6" />
+                <FaWhatsapp className="w-5 h-5" />
               </a>
               <a 
                 href="https://instagram.com/m3roodi" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-pink-400 transition-colors duration-200"
+                className="w-10 h-10 flex items-center justify-center bg-gray-800 hover:bg-gradient-to-br hover:from-purple-600 hover:via-pink-600 hover:to-orange-500 rounded-full text-gray-400 hover:text-white transition-all duration-300 transform hover:scale-110 hover:shadow-lg hover:shadow-pink-500/50"
               >
-                <FaInstagram className="w-5 h-5 sm:w-6 sm:h-6" />
+                <FaInstagram className="w-5 h-5" />
               </a>
               <a 
                 href="https://x.com/m3roodi" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-gray-200 transition-colors duration-200"
+                className="w-10 h-10 flex items-center justify-center bg-gray-800 hover:bg-gray-900 rounded-full text-gray-400 hover:text-white transition-all duration-300 transform hover:scale-110 hover:shadow-lg"
               >
-                <FaTwitter className="w-5 h-5 sm:w-6 sm:h-6" />
+                <FaTwitter className="w-5 h-5" />
               </a>
               <a 
                 href="https://tiktok.com/@m3roodi" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors duration-200"
+                className="w-10 h-10 flex items-center justify-center bg-gray-800 hover:bg-black rounded-full text-gray-400 hover:text-white transition-all duration-300 transform hover:scale-110 hover:shadow-lg"
               >
-                <FaTiktok className="w-5 h-5 sm:w-6 sm:h-6" />
+                <FaTiktok className="w-5 h-5" />
               </a>
               <a 
                 href="https://www.youtube.com/@m3roodivip670" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-red-500 transition-colors duration-200"
+                className="w-10 h-10 flex items-center justify-center bg-gray-800 hover:bg-red-600 rounded-full text-gray-400 hover:text-white transition-all duration-300 transform hover:scale-110 hover:shadow-lg hover:shadow-red-500/50"
               >
-                <FaYoutube className="w-5 h-5 sm:w-6 sm:h-6" />
+                <FaYoutube className="w-5 h-5" />
               </a>
               <a 
                 href="https://facebook.com/m3roodi" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-blue-500 transition-colors duration-200"
+                className="w-10 h-10 flex items-center justify-center bg-gray-800 hover:bg-blue-600 rounded-full text-gray-400 hover:text-white transition-all duration-300 transform hover:scale-110 hover:shadow-lg hover:shadow-blue-500/50"
               >
-                <FaFacebook className="w-5 h-5 sm:w-6 sm:h-6" />
+                <FaFacebook className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -69,17 +69,17 @@ export default function Footer() {
             <h4 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">روابط مهمة</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/why-us" className="text-sm sm:text-base text-gray-300 hover:text-blue-400 transition-colors duration-200 block">
+                <Link href="/why-us" className="text-sm sm:text-base text-gray-300 hover:text-blue-400 transition-all duration-300 block hover:translate-x-[-4px] hover:font-semibold">
                   لماذا موقع معروضي؟
                 </Link>
               </li>
               <li>
-                <Link href="/how-to-buy" className="text-sm sm:text-base text-gray-300 hover:text-blue-400 transition-colors duration-200 block">
+                <Link href="/how-to-buy" className="text-sm sm:text-base text-gray-300 hover:text-blue-400 transition-all duration-300 block hover:translate-x-[-4px] hover:font-semibold">
                   طريقة الشراء من معروضي
                 </Link>
               </li>
               <li>
-                <Link href="/terms" className="text-sm sm:text-base text-gray-300 hover:text-blue-400 transition-colors duration-200 block">
+                <Link href="/terms" className="text-sm sm:text-base text-gray-300 hover:text-blue-400 transition-all duration-300 block hover:translate-x-[-4px] hover:font-semibold">
                   الشروط و الاحكام و الخصوصية
                 </Link>
               </li>
