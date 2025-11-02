@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FaWhatsapp, FaTwitter, FaInstagram, FaEnvelope, FaPhone, FaTiktok, FaYoutube, FaFacebook } from 'react-icons/fa';
+import { FaWhatsapp, FaInstagram, FaEnvelope, FaPhone, FaTiktok, FaYoutube, FaFacebook } from 'react-icons/fa';
 
 export default function Footer() {
   return (
@@ -33,9 +33,11 @@ export default function Footer() {
                 href="https://x.com/m3roodi" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="w-10 h-10 flex items-center justify-center bg-gray-800 hover:bg-gray-900 rounded-full text-gray-400 hover:text-white transition-all duration-300 transform hover:scale-110 hover:shadow-lg"
+                className="w-10 h-10 flex items-center justify-center bg-gray-800 hover:bg-black rounded-full text-gray-400 hover:text-white transition-all duration-300 transform hover:scale-110 hover:shadow-lg"
               >
-                <FaTwitter className="w-5 h-5" />
+                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
               </a>
               <a 
                 href="https://tiktok.com/@m3roodi" 
