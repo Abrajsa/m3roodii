@@ -28,8 +28,8 @@ export default function Hero() {
           }}
         />
       </div>
-      {/* Dark overlay */}
-      <div className="absolute inset-0 bg-black/30"></div>
+      {/* Enhanced overlay with gradient */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50"></div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 sm:py-12 md:py-16 lg:py-20">
         <div className="text-center flex items-center justify-center min-h-full pt-8 sm:items-center sm:pt-2 md:pt-4 lg:pt-8">
           {/* Main Banner */}
@@ -67,11 +67,11 @@ export default function Hero() {
                 href="https://new-mall.com/oZEQPDR" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-blue-800 text-white border-2 border-white font-bold py-3 px-6 sm:py-3 sm:px-7 md:py-4 md:px-8 rounded-lg text-base sm:text-lg md:text-xl transition-all duration-300 shadow-lg hover:shadow-2xl hover:-translate-y-1 hover:scale-105 transform hover:bg-blue-700"
+                className="inline-block bg-gradient-to-r from-blue-700 to-blue-800 text-white border-2 border-white/20 font-bold py-4 px-8 sm:py-4 sm:px-9 md:py-5 md:px-10 rounded-xl text-base sm:text-lg md:text-xl transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-blue-500/50 hover:-translate-y-2 hover:scale-105 transform hover:from-blue-600 hover:to-blue-700 backdrop-blur-sm"
                 whileHover={{ scale: 1.05, y: -5 }}
                 whileTap={{ scale: 0.95 }}
               >
-                اطلب الآن
+                <span className="relative z-10">اطلب الآن</span>
               </motion.a>
             </motion.div>
           </motion.div>

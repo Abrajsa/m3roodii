@@ -35,8 +35,13 @@ export default function Home() {
       <Hero />
       
       {/* Services Section */}
-      <section className="py-16 sm:py-20 bg-gradient-to-b from-white via-gray-50/50 to-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-20 sm:py-24 bg-gradient-to-b from-white via-gray-50/30 to-white relative overflow-hidden">
+        {/* Subtle background decoration */}
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-500 rounded-full blur-3xl"></div>
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div 
             className="text-center mb-12 sm:mb-16"
             initial={{ opacity: 0, y: 20 }}
@@ -44,10 +49,7 @@ export default function Home() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <div className="inline-block mb-4">
-              <span className="text-blue-600 text-sm font-bold uppercase tracking-wide">خدماتنا</span>
-            </div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-5 bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-5 bg-gradient-to-r from-gray-900 via-blue-900 to-gray-900 bg-clip-text text-transparent">
               خدماتنا
             </h2>
             <p className="text-lg sm:text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto">
@@ -63,9 +65,9 @@ export default function Home() {
             viewport={{ once: true, margin: "-100px" }}
           >
             <motion.div 
-              className="group card text-center transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-200/50 hover:border-blue-300 cursor-pointer"
+              className="group card text-center transform transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl hover:shadow-blue-200/60 hover:border-blue-400 cursor-pointer backdrop-blur-sm"
               variants={itemVariants}
-              whileHover={{ y: -8, scale: 1.02 }}
+              whileHover={{ y: -10, scale: 1.03 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
               <div className="flex justify-center mb-3 sm:mb-4">
@@ -83,9 +85,9 @@ export default function Home() {
             </motion.div>
             
             <motion.div 
-              className="group card text-center transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-200/50 hover:border-blue-300 cursor-pointer"
+              className="group card text-center transform transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl hover:shadow-blue-200/60 hover:border-blue-400 cursor-pointer backdrop-blur-sm"
               variants={itemVariants}
-              whileHover={{ y: -8, scale: 1.02 }}
+              whileHover={{ y: -10, scale: 1.03 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
               <div className="flex justify-center mb-3 sm:mb-4">
@@ -182,8 +184,8 @@ export default function Home() {
                 href="https://new-mall.com/oZEQPDR" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-white text-blue-800 border-2 border-white font-bold py-2 px-5 sm:py-2.5 sm:px-6 md:py-3 md:px-7 rounded-lg text-sm sm:text-base md:text-lg transition-all duration-300 shadow-lg hover:shadow-2xl hover:-translate-y-1 hover:bg-gray-50 hover:scale-105 transform"
-                whileHover={{ scale: 1.05, y: -5 }}
+                className="inline-block bg-white text-blue-800 border-2 border-white font-bold py-3 px-8 sm:py-3.5 sm:px-9 md:py-4 md:px-10 rounded-xl text-sm sm:text-base md:text-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-white/20 hover:-translate-y-2 hover:bg-gray-50 hover:scale-105 transform"
+                whileHover={{ scale: 1.05, y: -3 }}
                 whileTap={{ scale: 0.95 }}
               >
                 اطلب الآن

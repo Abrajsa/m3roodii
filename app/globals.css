@@ -31,6 +31,8 @@ body {
   font-family: var(--font-cairo), Arial, Helvetica, sans-serif;
   direction: rtl;
   text-align: right;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* RTL specific styles */

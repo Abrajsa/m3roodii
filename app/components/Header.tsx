@@ -9,7 +9,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white shadow-md border-b border-gray-200 sticky top-0 z-30 backdrop-blur-sm bg-white/95">
+    <header className="bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-200/50 sticky top-0 z-30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -69,7 +69,7 @@ export default function Header() {
               href="https://new-mall.com/oZEQPDR" 
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-blue-800 text-white border-2 border-white font-bold py-2.5 px-5 rounded-lg text-sm transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-1"
+              className="inline-block bg-gradient-to-r from-blue-700 to-blue-800 text-white font-bold py-2.5 px-6 rounded-lg text-sm transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-blue-500/50 hover:-translate-y-1 hover:scale-105 transform hover:from-blue-600 hover:to-blue-700"
               style={{marginTop: '-4px'}}
             >
               اطلب الآن
