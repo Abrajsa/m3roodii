@@ -7,14 +7,14 @@ import { motion } from 'framer-motion';
 
 export default function Hero() {
   return (
-    <section className="relative text-white h-[56.25vw] min-h-[400px] sm:min-h-[500px] md:h-[60vh] lg:h-[70vh]">
+    <section className="relative text-white h-[75vw] sm:h-[56.25vw] sm:min-h-[500px] md:h-[60vh] lg:h-[70vh]">
       {/* Background with fallback gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700">
         <Image
-          src="/newphot.jpeg"
+          src="/m3newone.png"
           alt="معروضي - كتابة المعاريض الرسمية"
           fill
-          className="object-cover"
+          className="object-cover md:object-cover"
           style={{
             objectPosition: 'center center',
             objectFit: 'cover',
@@ -58,7 +58,7 @@ export default function Hero() {
               خدمة احترافية لكتابة المعاريض الحكومية والرسمية
             </motion.p>
             <motion.div 
-              className="-mt-2 sm:mt-6"
+              className="mt-2 sm:mt-8"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.6 }}
