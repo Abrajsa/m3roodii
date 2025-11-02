@@ -67,9 +67,9 @@ export default function Hero() {
                 href="https://new-mall.com/oZEQPDR" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-gradient-to-r from-blue-700 to-blue-800 text-white border-2 border-white/20 font-bold py-4 px-8 sm:py-4 sm:px-9 md:py-5 md:px-10 rounded-xl text-base sm:text-lg md:text-xl transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-blue-500/50 hover:-translate-y-2 hover:scale-105 transform hover:from-blue-600 hover:to-blue-700 backdrop-blur-sm"
-                whileHover={{ scale: 1.05, y: -5 }}
-                whileTap={{ scale: 0.95 }}
+                className="inline-block bg-gradient-to-r from-blue-700 to-blue-800 text-white border-2 border-white/20 font-bold py-4 px-8 sm:py-4 sm:px-9 md:py-5 md:px-10 rounded-xl text-base sm:text-lg md:text-xl transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-blue-500/50 hover:-translate-y-1 transform hover:from-blue-600 hover:to-blue-700 backdrop-blur-sm"
+                whileHover={{ scale: 1.02, y: -3 }}
+                whileTap={{ scale: 0.98 }}
               >
                 <span className="relative z-10">اطلب الآن</span>
               </motion.a>
