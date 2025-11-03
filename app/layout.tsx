@@ -9,7 +9,7 @@ const cairo = Cairo({
 });
 
 export const metadata: Metadata = {
-  title: "معروضي - موقع كتابة المعاريض",
+  title: "معروضي | لكتابة الخطابات القوية و المؤثرة",
   description: "موقع متخصص في كتابة المعاريض الرسمية باحترافية عالية",
 };
 
