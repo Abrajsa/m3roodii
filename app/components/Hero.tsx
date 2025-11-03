@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 export default function Hero() {
   return (
-    <section className="relative text-white h-[75vw] sm:h-[56.25vw] sm:min-h-[500px] md:h-[60vh] lg:h-[70vh]">
+    <section className="relative text-white h-[95vw] sm:h-[75vw] sm:min-h-[700px] md:h-[85vh] lg:h-[95vh]">
       {/* Background with fallback gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700">
         <Image
@@ -30,11 +30,11 @@ export default function Hero() {
       </div>
       {/* Enhanced overlay with gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50"></div>
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 sm:py-12 md:py-16 lg:py-20">
-        <div className="text-center flex items-center justify-center min-h-full pt-8 sm:items-center sm:pt-2 md:pt-4 lg:pt-8">
+      <div className="relative h-full flex items-center justify-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           {/* Main Banner */}
           <motion.div 
-            className="rounded-2xl p-3 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8"
+            className="text-center"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
@@ -49,7 +49,7 @@ export default function Hero() {
               كتابة المعاريض الرسمية
             </motion.h1>
             <motion.p 
-              className="text-base sm:text-lg md:text-xl lg:text-2xl mb-3 sm:mb-4 text-white leading-relaxed font-bold drop-shadow-xl" 
+              className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 text-white leading-relaxed font-bold drop-shadow-xl" 
               style={{textShadow: '1px 1px 3px rgba(0,0,0,0.8)'}}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -58,7 +58,7 @@ export default function Hero() {
               خدمة احترافية لكتابة المعاريض الحكومية والرسمية
             </motion.p>
             <motion.div 
-              className="mt-2 sm:mt-8"
+              className="mt-4 sm:mt-6"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.6 }}
@@ -75,7 +75,6 @@ export default function Hero() {
               </motion.a>
             </motion.div>
           </motion.div>
-
         </div>
       </div>
     </section>
