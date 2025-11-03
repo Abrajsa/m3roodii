@@ -124,6 +124,26 @@ export default function Home() {
               </p>
             </motion.div>
           </motion.div>
+          
+          {/* Button below features */}
+          <motion.div 
+            className="flex justify-center mt-10 sm:mt-12"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+          >
+            <motion.a 
+              href="https://new-mall.com/oZEQPDR"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-blue-600 text-white font-bold py-3 px-8 sm:py-3.5 sm:px-9 md:py-4 md:px-10 rounded-xl text-sm sm:text-base md:text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-blue-500/50 hover:-translate-y-2 hover:bg-blue-700 hover:scale-105 transform"
+              whileHover={{ scale: 1.05, y: -3 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              طلب معروض
+            </motion.a>
+          </motion.div>
         </div>
       </section>
 
