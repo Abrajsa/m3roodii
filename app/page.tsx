@@ -79,7 +79,7 @@ export default function Home() {
                 </div>
               </div>
               <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-gray-900 group-hover:text-blue-700 transition-colors duration-300">كتابة معروض</h3>
-              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
+              <p className="text-sm sm:text-base text-black leading-relaxed">
                 كتابة المعاريض بصيغة قوية و مؤثرة
               </p>
             </motion.div>
@@ -99,7 +99,7 @@ export default function Home() {
                 </div>
               </div>
               <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-gray-900 group-hover:text-blue-700 transition-colors duration-300">ارسال المعروض</h3>
-              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
+              <p className="text-sm sm:text-base text-black leading-relaxed">
                 إرسال المعروض للجهة المختصة بطريقة موثوقة و مباشرة
               </p>
             </motion.div>
@@ -118,8 +118,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-gray-900 group-hover:text-blue-700 transition-colors duration-300">متابعة المعملات</h3>
-              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
+              <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-gray-900 group-hover:text-blue-700 transition-colors duration-300">متابعة المعاملات</h3>
+              <p className="text-sm sm:text-base text-black leading-relaxed">
                 متابعة معاملتك لضمان وصولها و انجازها بأسرع وقت
               </p>
             </motion.div>

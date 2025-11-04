@@ -23,7 +23,7 @@ export default function WhyUs() {
           </div>
           
           <div className="prose prose-lg max-w-none">
-            <div className="bg-white rounded-lg shadow-lg p-8 leading-relaxed text-black text-right">
+            <div className="leading-relaxed text-black text-right">
               <p className="text-lg mb-6 text-black">
                 تختار موقع معروضي لانه مكون من فريق عمل سعودي من الكتبة المخضرمين المحترفين بما فيهم محامين ومستشارين في كتابة الخطابات و الشؤون القانونية بخبرة تزيد عن 25 سنة في كتابة الخطابات بصيغة قوية و مؤثرة نسخر خبرتنا في كتابة خطابك أو معروضك حيث ان قوة خطاباتنا وتأثيرها يجعل لك السبق في النظر في أمرك و الاهتمام به.
               </p>
@@ -40,7 +40,7 @@ export default function WhyUs() {
                 مع العلم أن الهدف الأساسي هو مساعدتك في قضاء حوائجك كما قال الرسول صلى الله عليه وسلم : الله في عون العبد ما كان العبد في عون أخيه ، لطلب معروض تفضل بالدخول على صفحة طلب معروض واملاء نموذج الطلب ثم اكمل الاجرائات و تسعدنا خدمتك.
               </p>
               
-              <div className="bg-blue-50 border-r-4 border-blue-500 p-6 rounded-lg mb-8 text-right">
+              <div className="mb-8 text-right">
                 <p className="text-lg font-semibold text-black mb-4">
                   #معروضي
                 </p>
