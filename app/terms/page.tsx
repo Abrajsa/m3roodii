@@ -1,6 +1,5 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Link from 'next/link';
 
 export default function Terms() {
   return (
@@ -216,14 +215,16 @@ export default function Terms() {
                 </div>
               </div>
 
-              {/* Back to Home */}
+              {/* Request Button */}
               <div className="text-right mt-12 pt-8 border-t border-gray-200">
-                <Link 
-                  href="/"
+                <a 
+                  href="https://new-mall.com/oZEQPDR"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200"
                 >
-                  للرجوع لموقع معروضي اضغط هنا
-                </Link>
+                  اطلب معروضك الان
+                </a>
               </div>
           </div>
         </div>
