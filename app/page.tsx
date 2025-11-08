@@ -52,7 +52,7 @@ export default function Home() {
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-5 bg-gradient-to-r from-gray-900 via-blue-900 to-gray-900 bg-clip-text text-transparent">
               خدماتنا
             </h2>
-            <p className="text-lg sm:text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto">
+            <p className="text-lg sm:text-xl text-black leading-relaxed max-w-2xl mx-auto">
               نقدم مجموعة شاملة من خدمات كتابة المعاريض
             </p>
           </motion.div>
