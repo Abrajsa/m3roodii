@@ -71,7 +71,7 @@ export default function Hero() {
                 whileHover={{ scale: 1.02, y: -3 }}
                 whileTap={{ scale: 0.98 }}
               >
-                <span className="relative z-10">اطلب الآن</span>
+                <span className="relative z-10">طلب معروض</span>
               </motion.a>
             </motion.div>
           </motion.div>

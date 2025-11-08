@@ -35,7 +35,7 @@ export default function Home() {
       <Hero />
       
       {/* Services Section */}
-      <section className="py-20 sm:py-24 bg-gradient-to-b from-white via-gray-50/30 to-white relative overflow-hidden">
+      <section className="py-20 sm:py-24 bg-gradient-to-b from-gray-50 via-gray-100/50 to-gray-50 relative overflow-hidden">
         {/* Subtle background decoration */}
         <div className="absolute inset-0 opacity-5">
           <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500 rounded-full blur-3xl"></div>
