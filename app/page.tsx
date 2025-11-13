@@ -64,8 +64,11 @@ export default function Home() {
             whileInView="visible"
             viewport={{ once: true, margin: "-100px" }}
           >
-            <motion.div 
-              className="group card text-center transform transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl hover:shadow-blue-200/60 hover:border-blue-400 cursor-pointer backdrop-blur-sm"
+            <motion.a 
+              href="https://new-mall.com/%D9%83%D8%AA%D8%A7%D8%A8%D8%A9-%D8%AE%D8%B7%D8%A7%D8%A8-%D9%82%D9%88%D9%8A-%D9%88-%D9%85%D8%A4%D8%AB%D8%B1/p1653735701"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group card text-center transform transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl hover:shadow-blue-200/60 hover:border-blue-400 cursor-pointer backdrop-blur-sm block"
               variants={itemVariants}
               whileHover={{ y: -10, scale: 1.03 }}
               transition={{ type: "spring", stiffness: 300 }}
@@ -82,10 +85,13 @@ export default function Home() {
               <p className="text-sm sm:text-base text-black leading-relaxed">
                 كتابة المعاريض بصيغة قوية و مؤثرة
               </p>
-            </motion.div>
+            </motion.a>
             
-            <motion.div 
-              className="group card text-center transform transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl hover:shadow-blue-200/60 hover:border-blue-400 cursor-pointer backdrop-blur-sm"
+            <motion.a 
+              href="https://new-mall.com/%D9%83%D8%AA%D8%A7%D8%A8%D8%A9-%D8%AE%D8%B7%D8%A7%D8%A8-%D9%82%D9%88%D9%8A-%D9%88-%D9%85%D8%A4%D8%AB%D8%B1/p1653735701"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group card text-center transform transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl hover:shadow-blue-200/60 hover:border-blue-400 cursor-pointer backdrop-blur-sm block"
               variants={itemVariants}
               whileHover={{ y: -10, scale: 1.03 }}
               transition={{ type: "spring", stiffness: 300 }}
@@ -102,10 +108,13 @@ export default function Home() {
               <p className="text-sm sm:text-base text-black leading-relaxed">
                 إرسال المعروض للجهة المختصة بطريقة موثوقة و مباشرة
               </p>
-            </motion.div>
+            </motion.a>
             
-            <motion.div 
-              className="group card text-center sm:col-span-2 lg:col-span-1 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-200/50 hover:border-blue-300 cursor-pointer"
+            <motion.a 
+              href="https://new-mall.com/%D9%83%D8%AA%D8%A7%D8%A8%D8%A9-%D8%AE%D8%B7%D8%A7%D8%A8-%D9%82%D9%88%D9%8A-%D9%88-%D9%85%D8%A4%D8%AB%D8%B1/p1653735701"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group card text-center sm:col-span-2 lg:col-span-1 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-200/50 hover:border-blue-300 cursor-pointer block"
               variants={itemVariants}
               whileHover={{ y: -8, scale: 1.02 }}
               transition={{ type: "spring", stiffness: 300 }}
@@ -122,7 +131,7 @@ export default function Home() {
               <p className="text-sm sm:text-base text-black leading-relaxed">
                 متابعة معاملتك لضمان وصولها و انجازها بأسرع وقت
               </p>
-            </motion.div>
+            </motion.a>
           </motion.div>
           
           {/* Button below features */}
