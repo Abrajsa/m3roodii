@@ -50,8 +50,8 @@ export default function ServiceCards() {
                 className="block group"
               >
                 <div className="bg-white rounded-2xl shadow-lg border-2 border-gray-200 hover:border-blue-400 transition-all duration-300 h-full flex flex-col overflow-hidden hover:shadow-2xl hover:shadow-blue-200/50">
-                  <div className="aspect-square flex items-center justify-center p-6 bg-gradient-to-br from-blue-50 to-blue-100 group-hover:from-blue-100 group-hover:to-blue-200 transition-all duration-300">
-                    <h3 className="text-xl sm:text-2xl font-bold text-gray-900 text-center leading-tight group-hover:text-blue-700 transition-colors duration-300 px-4">
+                  <div className="aspect-square flex items-center justify-center p-4 sm:p-6 bg-gradient-to-br from-blue-50 to-blue-100 group-hover:from-blue-100 group-hover:to-blue-200 transition-all duration-300">
+                    <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 text-center leading-normal group-hover:text-blue-700 transition-colors duration-300 px-2 sm:px-4 line-clamp-2">
                       {service.title}
                     </h3>
                   </div>
