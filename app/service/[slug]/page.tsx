@@ -70,7 +70,7 @@ export default function ServiceDetailPage({ params }: { params: Promise<{ slug: 
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <div className="prose prose-lg max-w-none">
+            <div className="prose prose-lg max-w-none text-left">
               {descriptionLines.map((line, index) => {
                 // Check if line is a heading (starts with specific patterns)
                 if (line.includes('----')) {
@@ -79,7 +79,7 @@ export default function ServiceDetailPage({ params }: { params: Promise<{ slug: 
                 
                 if (line.startsWith('✔️') || line.match(/^[✔✓]/)) {
                   return (
-                    <p key={index} className="text-gray-700 mb-3 text-base sm:text-lg leading-relaxed flex items-start">
+                    <p key={index} className="text-black mb-3 text-base leading-6 flex items-start text-left">
                       <span className="ml-2 text-green-600 text-xl">✔️</span>
                       <span>{line.replace(/^[✔✓]\s*/, '')}</span>
                     </p>
@@ -88,7 +88,7 @@ export default function ServiceDetailPage({ params }: { params: Promise<{ slug: 
                 
                 if (line.match(/^[ا-ي].*[؟?]$/) || line.includes('؟')) {
                   return (
-                    <h3 key={index} className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 mt-6 first:mt-0">
+                    <h3 key={index} className="text-xl sm:text-2xl font-bold text-black mb-4 mt-6 first:mt-0 text-left">
                       {line}
                     </h3>
                   );
@@ -96,7 +96,7 @@ export default function ServiceDetailPage({ params }: { params: Promise<{ slug: 
                 
                 if (line.trim().length > 0) {
                   return (
-                    <p key={index} className="text-gray-700 mb-4 text-base sm:text-lg leading-relaxed">
+                    <p key={index} className="text-black mb-4 text-base leading-6 text-left">
                       {line}
                     </p>
                   );
