@@ -3,6 +3,7 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
+import ServiceCards from './components/ServiceCards';
 import { FaPen, FaPaperPlane, FaUserTie } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
@@ -33,6 +34,7 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-50">
       <Header />
       <Hero />
+      <ServiceCards />
       
       {/* Services Section */}
       <section className="py-20 sm:py-24 bg-gradient-to-b from-gray-50 via-gray-100/50 to-gray-50 relative overflow-hidden">
