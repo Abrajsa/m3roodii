@@ -72,6 +72,11 @@ export default function ServiceDetailPage({ params }: { params: Promise<{ slug: 
           >
             <div className="max-w-none text-right" style={{ fontFamily: 'var(--font-tajawal), sans-serif', fontWeight: 700 }}>
               {descriptionLines.map((line, index) => {
+                // Skip lines that only contain "-"
+                if (line.trim() === '-' || line.trim() === '') {
+                  return null;
+                }
+                
                 // Check if line is a heading (starts with specific patterns)
                 if (line.includes('----')) {
                   return <hr key={index} className="my-6 border-gray-300" />;
