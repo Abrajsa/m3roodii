@@ -80,7 +80,7 @@ export default function ServiceDetailPage({ params }: { params: Promise<{ slug: 
                 if (line.startsWith('✔️') || line.match(/^[✔✓]/)) {
                   return (
                     <p key={index} className="text-black mb-3 text-base leading-6 flex items-start text-right font-bold" style={{ fontFamily: 'var(--font-tajawal), sans-serif', fontWeight: 700 }}>
-                      <span className="ml-2 text-green-600 text-xl">✔️</span>
+                      <span className="ml-2 text-green-600 text-base">✔️</span>
                       <span>{line.replace(/^[✔✓]\s*/, '')}</span>
                     </p>
                   );
@@ -88,7 +88,7 @@ export default function ServiceDetailPage({ params }: { params: Promise<{ slug: 
                 
                 if (line.match(/^[ا-ي].*[؟?]$/) || line.includes('؟')) {
                   return (
-                    <h3 key={index} className="text-xl sm:text-2xl font-bold text-black mb-4 mt-6 first:mt-0 text-right" style={{ fontFamily: 'var(--font-tajawal), sans-serif', fontWeight: 700 }}>
+                    <h3 key={index} className="text-base font-bold text-black mb-4 mt-6 first:mt-0 text-right" style={{ fontFamily: 'var(--font-tajawal), sans-serif', fontWeight: 700 }}>
                       {line}
                     </h3>
                   );
