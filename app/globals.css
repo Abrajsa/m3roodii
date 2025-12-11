@@ -23,6 +23,7 @@
   --color-muted: var(--muted);
   --color-blue-800: var(--color-blue-800);
   --font-sans: var(--font-cairo);
+  --font-tajawal: var(--font-tajawal);
 }
 
 body {
