@@ -205,7 +205,7 @@ export default function Home() {
               اطلب معروضك الان واحصل على افضل صيغة
             </motion.h2>
             <motion.div 
-              className="mt-4 sm:mt-6"
+              className="mt-4 sm:mt-6 flex flex-col sm:flex-row gap-4 justify-center items-center"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -220,6 +220,14 @@ export default function Home() {
                 whileTap={{ scale: 0.95 }}
               >
                 اطلب الآن
+              </motion.a>
+              <motion.a
+                href="/services"
+                className="inline-block bg-gradient-to-r from-blue-700 to-blue-800 hover:from-blue-600 hover:to-blue-700 text-white font-bold py-3 px-8 sm:py-3.5 sm:px-9 md:py-4 md:px-10 rounded-xl text-sm sm:text-base md:text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-blue-500/50 hover:-translate-y-2 hover:scale-105 transform"
+                whileHover={{ scale: 1.05, y: -3 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                تفاصيل الخدمة
               </motion.a>
             </motion.div>
           </motion.div>
