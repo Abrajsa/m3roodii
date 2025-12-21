@@ -1,6 +1,5 @@
 'use client';
 
-import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { services } from '../data/services';
 
@@ -45,8 +44,10 @@ export default function ServiceCards() {
               whileHover={{ y: -8, scale: 1.02 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <Link
-                href={`/service/${service.id}`}
+              <a
+                href={service.orderLink}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block group"
               >
                 <div className="bg-white rounded-2xl shadow-lg border-2 border-gray-200 hover:border-blue-400 transition-all duration-300 h-full flex flex-col overflow-hidden hover:shadow-2xl hover:shadow-blue-200/50">
@@ -56,7 +57,7 @@ export default function ServiceCards() {
                     </h3>
                   </div>
                 </div>
-              </Link>
+              </a>
             </motion.div>
           ))}
         </motion.div>
