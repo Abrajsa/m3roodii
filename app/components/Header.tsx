@@ -54,6 +54,12 @@ export default function Header() {
               من نحن
             </Link>
             <Link 
+              href="/pricing" 
+              className="text-black hover:text-blue-600 px-3 py-2 text-sm font-black relative border-b-2 border-transparent hover:border-blue-600 transition-all duration-300 ease-in-out"
+            >
+              الأسعار
+            </Link>
+            <Link 
               href="/faq" 
               className="text-black hover:text-blue-600 px-3 py-2 text-sm font-black relative border-b-2 border-transparent hover:border-blue-600 transition-all duration-300 ease-in-out"
             >
@@ -174,6 +180,13 @@ export default function Header() {
                     onClick={() => setIsMenuOpen(false)}
                   >
                     من نحن
+                  </Link>
+                  <Link 
+                    href="/pricing" 
+                    className="text-black hover:text-blue-600 hover:bg-blue-50 block px-4 py-3 text-base font-black rounded-lg transition-all duration-200"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    الأسعار
                   </Link>
                   <Link 
                     href="/faq" 

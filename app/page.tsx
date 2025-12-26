@@ -158,6 +158,34 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Pricing Section */}
+      <section className="py-16 sm:py-20 bg-gradient-to-b from-white via-gray-50 to-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div 
+            className="text-center mb-12 sm:mb-16"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-5 bg-gradient-to-r from-gray-900 via-blue-900 to-gray-900 bg-clip-text text-transparent">
+              الأسعار
+            </h2>
+            <p className="text-lg sm:text-xl text-black leading-relaxed max-w-2xl mx-auto mb-8">
+              تعرف على أسعار خدماتنا المختلفة
+            </p>
+            <motion.a
+              href="/pricing"
+              className="inline-block bg-gradient-to-r from-blue-700 to-blue-800 hover:from-blue-600 hover:to-blue-700 text-white font-bold py-4 px-8 sm:py-4 sm:px-10 rounded-xl text-lg sm:text-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-blue-500/50 hover:-translate-y-1 hover:scale-105 transform"
+              whileHover={{ scale: 1.05, y: -3 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              عرض جميع الأسعار
+            </motion.a>
+          </motion.div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="relative py-16 sm:py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 overflow-hidden">
         {/* Decorative background elements */}
