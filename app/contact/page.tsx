@@ -26,7 +26,7 @@ export default function Contact() {
     {
       icon: FaMapMarkerAlt,
       title: 'العنوان',
-      value: 'جدة',
+      value: 'جدة - المملكة العربية السعودية',
       link: '#',
       color: 'from-purple-500 to-purple-600',
       hoverColor: 'hover:from-purple-600 hover:to-purple-700'
