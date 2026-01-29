@@ -117,7 +117,7 @@ export default function Footer() {
         <div className="border-t border-gray-700 mt-6 sm:mt-8 pt-6 sm:pt-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <div className="text-gray-400 text-xs sm:text-sm mb-2 sm:mb-0 text-center sm:text-right">
-              © 2025 معروضي. جميع الحقوق محفوظة.
+              © {new Date().getFullYear()} معروضي. جميع الحقوق محفوظة.
             </div>
             <Link 
               href="/contact" 
