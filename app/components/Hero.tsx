@@ -35,33 +35,33 @@ export default function Hero() {
           {/* Main Banner */}
           <motion.div 
             className="text-center"
-            initial={{ opacity: 0, y: 30 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <motion.h1 
               className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight text-white drop-shadow-2xl" 
               style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}
-              initial={{ opacity: 0, y: 20 }}
+              initial={false}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
+              transition={{ duration: 0.6, delay: 0.1 }}
             >
               كتابة المعاريض الرسمية
             </motion.h1>
             <motion.p 
               className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 text-white leading-relaxed font-bold drop-shadow-xl" 
               style={{textShadow: '1px 1px 3px rgba(0,0,0,0.8)'}}
-              initial={{ opacity: 0, y: 20 }}
+              initial={false}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.4 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
             >
               خدمة احترافية لكتابة المعاريض الحكومية والرسمية
             </motion.p>
             <motion.div 
               className="mt-4 sm:mt-6"
-              initial={{ opacity: 0, y: 20 }}
+              initial={false}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.6 }}
+              transition={{ duration: 0.6, delay: 0.3 }}
             >
               <motion.a 
                 href="https://new-mall.com/oZEQPDR" 

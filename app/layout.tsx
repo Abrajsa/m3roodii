@@ -141,7 +141,14 @@ export default function RootLayout({
     <html lang="ar" dir="rtl">
       <body
         className={`${cairo.variable} ${tajawal.variable} antialiased`}
+        style={{ backgroundColor: "#f9fafb" }}
       >
+        <noscript>
+          <div style={{ padding: "2rem", textAlign: "center", fontFamily: "Arial, sans-serif", direction: "rtl" }}>
+            <h1>معروضي</h1>
+            <p>لتفعيل الموقع يرجى تفعيل جافا سكريبت في المتصفح، أو <a href="https://new-mall.com/oZEQPDR">اضغط هنا لطلب معروض</a>.</p>
+          </div>
+        </noscript>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -151,7 +158,7 @@ export default function RootLayout({
           id="metricool-tracker"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
-            __html: `function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"5dd80ee224fd558c30e22cade6f421a0"})});`,
+            __html: `try{function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){try{beTracker&&beTracker.t({hash:"5dd80ee224fd558c30e22cade6f421a0"})}catch(e){}})}catch(e){}`,
           }}
         />
       </body>

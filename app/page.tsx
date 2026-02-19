@@ -46,7 +46,8 @@ export default function Home() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div 
             className="text-center mb-12 sm:mb-16"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
+            animate={{ opacity: 1, y: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -62,7 +63,8 @@ export default function Home() {
           <motion.div 
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8"
             variants={containerVariants}
-            initial="hidden"
+            initial="visible"
+            animate="visible"
             whileInView="visible"
             viewport={{ once: true, margin: "-100px" }}
           >
@@ -139,7 +141,8 @@ export default function Home() {
           {/* Button below features */}
           <motion.div 
             className="flex justify-center mt-10 sm:mt-12"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
+            animate={{ opacity: 1, y: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.3 }}
@@ -163,7 +166,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div 
             className="text-center mb-12 sm:mb-16"
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
+            animate={{ opacity: 1, y: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -218,14 +222,16 @@ export default function Home() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div 
             className="text-center"
-            initial={{ opacity: 0, y: 30 }}
+            initial={false}
+            animate={{ opacity: 1, y: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
             <motion.h2 
               className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-4 sm:mb-6 leading-tight drop-shadow-lg"
-              initial={{ opacity: 0, scale: 0.9 }}
+              initial={false}
+              animate={{ opacity: 1, scale: 1 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
@@ -234,7 +240,8 @@ export default function Home() {
             </motion.h2>
             <motion.div 
               className="mt-4 sm:mt-6 flex flex-col sm:flex-row gap-4 justify-center items-center"
-              initial={{ opacity: 0, y: 20 }}
+              initial={false}
+              animate={{ opacity: 1, y: 0 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.4 }}

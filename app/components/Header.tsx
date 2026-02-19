@@ -15,7 +15,7 @@ export default function Header() {
           {/* Logo */}
           <motion.div 
             className="flex-shrink-0"
-            initial={{ opacity: 0, x: -20 }}
+            initial={false}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
