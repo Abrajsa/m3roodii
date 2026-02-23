@@ -6,17 +6,17 @@ import { motion } from 'framer-motion';
 
 export default function PricingPage() {
   const pricingData = [
-    { type: 'طلب مساعدة مالية', writingOnly: 199, writingWithSending: 689, writingWithSendingAndFollow: 3699 },
-    { type: 'طلب نقل عسكري او مدني', writingOnly: 199, writingWithSending: 689, writingWithSendingAndFollow: 3699 },
+    { type: 'طلب مساعدة مالية', writingOnly: 250, writingWithSending: 689, writingWithSendingAndFollow: 3699 },
+    { type: 'طلب نقل عسكري او مدني', writingOnly: 250, writingWithSending: 689, writingWithSendingAndFollow: 3699 },
     { type: 'طلب تجنيس', writingOnly: 350, writingWithSending: 840, writingWithSendingAndFollow: 3850 },
     { type: 'شكوى او تظلم', writingOnly: 250, writingWithSending: 740, writingWithSendingAndFollow: 3750 },
-    { type: 'طلب علاج', writingOnly: 199, writingWithSending: 689, writingWithSendingAndFollow: 3699 },
-    { type: 'طلب وظيفة', writingOnly: 199, writingWithSending: 689, writingWithSendingAndFollow: 3699 },
+    { type: 'طلب علاج', writingOnly: 250, writingWithSending: 689, writingWithSendingAndFollow: 3699 },
+    { type: 'طلب وظيفة', writingOnly: 250, writingWithSending: 689, writingWithSendingAndFollow: 3699 },
     { type: 'طلب ابتعاث', writingOnly: 350, writingWithSending: 840, writingWithSendingAndFollow: 3850 },
     { type: 'طلب سكن', writingOnly: 250, writingWithSending: 740, writingWithSendingAndFollow: 3750 },
     { type: 'طلب زواج من اجنبية', writingOnly: 350, writingWithSending: 840, writingWithSendingAndFollow: 3850 },
-    { type: 'طلب استرحام', writingOnly: 199, writingWithSending: 689, writingWithSendingAndFollow: 3699 },
-    { type: 'طلب سداد دين', writingOnly: 199, writingWithSending: 689, writingWithSendingAndFollow: 3699 },
+    { type: 'طلب استرحام', writingOnly: 250, writingWithSending: 689, writingWithSendingAndFollow: 3699 },
+    { type: 'طلب سداد دين', writingOnly: 250, writingWithSending: 689, writingWithSendingAndFollow: 3699 },
     { type: 'طلب اعفاء من المخالفات', writingOnly: 250, writingWithSending: 740, writingWithSendingAndFollow: 3750 },
     { type: 'طلب منحة', writingOnly: 250, writingWithSending: 740, writingWithSendingAndFollow: 3750 },
     { type: 'اي طلب اخر', writingOnly: 350, writingWithSending: 840, writingWithSendingAndFollow: 3850 },
