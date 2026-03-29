@@ -113,27 +113,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Commercial register (Saudi trust badge) */}
-        <div className="flex justify-center mt-8 sm:mt-10">
-          <div className="flex gap-4 items-center">
-            <img
-              className="s-trust-badges-image shrink-0 rounded-md"
-              width={55}
-              height={55}
-              src="https://cdn.salla.network/cdn-cgi/image/fit=scale-down,width=70,height=70,onerror=redirect,format=auto/images/commercial-register.png"
-              alt="السجل التجاري"
-            />
-            <div className="s-trust-badges-content flex flex-col text-right">
-              <p className="s-trust-badges-label text-sm text-gray-300 font-medium m-0 leading-snug">
-                السجل التجاري
-              </p>
-              <b className="s-trust-badges-number text-lg sm:text-xl text-white font-bold mt-0.5">
-                4030616361
-              </b>
-            </div>
-          </div>
-        </div>
-
         {/* Bottom Section */}
         <div className="border-t border-gray-700 mt-6 sm:mt-8 pt-6 sm:pt-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
